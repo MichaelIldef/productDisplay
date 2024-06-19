@@ -1,0 +1,79 @@
+body {
+    background-color: antiquewhite;
+}
+
+
+/*This is for index.php*/
+form {
+    text-align: center;
+}
+label {
+    display: block;
+    font-size: 20px;
+}
+textarea {
+    resize: none;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#btn {
+    margin: 15px;
+    width: 120px;
+    height: 25px;
+    background-color: bisque;
+}
+#btn:hover {
+    background-color: antiquewhite;
+}
+
+
+/*This is for display.php*/
+h2 {
+text-align: center;
+}
+
+
+#div1 {
+    display: flex;
+
+}
+.prod {
+display: flexbox;
+border: 2px black solid;
+margin: 20px;
+width: 200px;
+background-color: rgb(231, 207, 176);
+}
+h3 {
+    text-align: center;
+    background-color: rgba(175, 157, 133, 0.733);
+}
+
+p {
+text-align: center;
+}
+#delBtn {
+    background-color: red;
+    border-color: rgb(114, 9, 9);
+    color: antiquewhite;
+    margin-bottom: 10px;
+}
+.desc {
+background-color: rgb(233, 190, 134);
+margin: 0;
+padding: 5px;
+}
+#delBtn:hover {
+    background-color: rgb(66, 22, 22);
+    color: rgb(255, 1, 1);
+}
